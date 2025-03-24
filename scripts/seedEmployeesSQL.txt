@@ -1,0 +1,8 @@
+-- SQL script to insert sample employee data
+INSERT INTO employees (name, email, phone, role, salary, start_date, address, emergency_contact, notes, status)
+VALUES
+  ('David Miller', 'david.m@example.com', '(555) 123-7890', 'Photographer', '4500', '01/15/2022', '123 Main St, Anytown, USA 12345', 'Jane Miller (555) 987-6543', 'Specializes in outdoor and event photography. Prefers weekend assignments.', 'Active'),
+  ('Jessica Taylor', 'jessica.t@example.com', '(555) 456-7891', 'Event Manager', '5200', '03/10/2021', '456 Oak Ave, Somewhere, USA 54321', 'Mark Taylor (555) 765-4321', 'Excellent at coordinating large events. Has experience with weddings and corporate events.', 'Active'),
+  ('Ryan Cooper', 'ryan.c@example.com', '(555) 789-1234', 'Equipment Technician', '3800', '09/20/2022', '789 Pine St, Anytown, USA 12345', 'Sarah Cooper (555) 432-1098', 'Knowledgeable about maintaining and repairing all types of photography equipment.', 'On Leave'),
+  ('Amanda Wilson', 'amanda.w@example.com', '(555) 234-5678', 'Assistant Photographer', '3200', '05/05/2023', '101 Maple Dr, Somewhere, USA 54321', 'John Wilson (555) 876-5432', 'Excellent eye for detail. Learning to take on more complex photography assignments.', 'Active'),
+  ('Mark Johnson', 'mark.j@example.com', '(555) 876-5432', 'Videographer', '4800', '11/15/2021', '202 Elm St, Anytown, USA 12345', 'Lisa Johnson (555) 345-6789', 'Specializes in wedding videos and documentaries. Expert in video editing.', 'Unavailable'); 
